@@ -43,7 +43,7 @@
 .posts .card {
     /* box-shadow: 3px 5px 10px 0px #6bcfcf; */
     /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
-    box-shadow: #6bcfcf 0px 20px 30px -10px;
+    box-shadow: #6bcfcf 0 20px 30px -10px;
     border-radius: 5px;
     border: ridge rgba(0, 123, 255, 0.407) 4px;
     background-color: rgb(255, 255, 255);
