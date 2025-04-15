@@ -10,8 +10,8 @@
 @import url("assets/css/_stats.css");
 @import url("assets/css/_topic.css");
 @import url("assets/css/_faq.css");
-@import url("assets/css/_footer.css");
-@import url("assets/css/_gridsystem.css");
+@import url("/Educational-custom-framework/assets/css/_footer.css");
+@import url("/assets/css/_gridsystem.css");
 
 * {
   margin: 0;
