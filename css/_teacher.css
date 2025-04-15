@@ -1,0 +1,65 @@
+.teacher-section-wrapper {
+    background-image: url("../img/back.jpg");
+    box-shadow: inset 0px 0px 15px 10px rgb(0 0 0 / 62%);
+}
+
+.teacher-intro {
+    background: white;
+    top: 95%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    box-shadow: inset 0px 13px 20px 15px #dad8d8;
+    border-radius: 8px;
+}
+
+.teacher-intro h3 {
+    font-size: 26px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.teacher-intro h3 span {
+    background-color: orange;
+    color: #efefef;
+    padding: 1px 18px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 1px 6px 2px rgb(11 25 25 / 66%);
+    border-radius: 5px;
+}
+
+.teacher-intro a {
+    border: 2px solid orange;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 0.4s ease-in;
+}
+
+.teacher-intro a:hover {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 560px) {
+    .teacher-intro h3 {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .teacher-intro span {
+        display: block;
+        text-align: center;
+        width: fit-content;
+        margin: 10px auto 0px auto;
+    }
+
+    .teacher-intro a {
+        font-size: 14px;
+    }
+}

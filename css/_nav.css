@@ -1,0 +1,76 @@
+/* media queries for hidden menu */
+
+@media screen and (max-width: 576px) {
+    .nav a:not(:first-child) {
+        display: none;
+    }
+
+    .nav a.icon {
+        display: block;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav.responsive {
+        position: relative;
+    }
+
+    .nav.responsive .icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+    }
+
+    .nav.responsive a:first-child {
+        width: fit-content;
+    }
+}
+
+
+/* navbar */
+
+.nav {
+    background: rgb(249, 239, 254);
+    background: linear-gradient(180deg, rgba(249, 239, 254, 1) 33%, rgba(218, 252, 252, 1) 100%);
+    overflow: hidden;
+    box-shadow: 0px 1px 8px 1px #273664db;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    transition: 0.5s, 0.4s;
+}
+
+.nav a:hover {
+    font-size: 20px;
+    /* background-color: rgba(110, 222, 185, 0.401); */
+    background: rgb(255, 152, 84);
+    background: linear-gradient(48deg, rgba(255, 152, 84, 0.6502198291425945) 33%, rgba(103, 255, 230, 0.521368288526348) 66%);
+    border-radius: 10px;
+    transition-timing-function: ease-out;
+}
+
+.number-phone {
+    font-size: 13px;
+}
+
+.nav i {
+    color: orange;
+    font-size: 26px;
+    transform: rotate(-18deg);
+}

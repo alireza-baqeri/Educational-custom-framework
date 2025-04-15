@@ -1,0 +1,97 @@
+.faq-section-row {
+    background-image: url("../img/background/back-faq.png");
+    min-height: 500px;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 9px white;
+}
+
+.faq-right-side {
+    box-shadow: 0px 0px 6px 1px black;
+    background-color: rgba(255, 255, 255, 0.467);
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.faq-right-side h6 {
+    font-size: 16px;
+}
+
+.faq-right-side h6 i {
+    font-size: 32px;
+    margin-left: 14px;
+    vertical-align: -5px;
+    color: rgb(68, 131, 248);
+}
+
+.faq-right-side p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin: 10px 47px 0px 0px;
+    color: #818181;
+}
+
+.faq-left-side {
+    /* box-shadow: inset 0px 0px 6px 1px black; */
+    /* padding: 50px; */
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.446);
+}
+
+.tabs {
+    border-radius: 0px 0px 0px 15px;
+    overflow: hidden;
+    box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0.661);
+    /* background-color: rgba(0, 255, 208, 0.716); */
+}
+
+.faq-section-wrapper .faq-left-side .tab {
+    color: #fff;
+    overflow: hidden;
+    /* margin: 10px 0px; */
+}
+
+.faq-section-wrapper .faq-left-side .tab-label {
+    padding: 15px 0px;
+    background-color: #9a9999;
+    width: 100%;
+    cursor: pointer;
+    transition: ease-in .5s;
+    display: block;
+}
+
+.faq-section-wrapper .faq-left-side .tab-label:hover {
+    /* background-color: rgba(185, 120, 1, 0.881); */
+}
+
+.faq-section-wrapper .faq-left-side .tab-label:after {
+    content: '\276f';
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+    transition: .6s;
+}
+
+.faq-section-wrapper .faq-left-side .tab-content {
+    max-height: 0px;
+    /* padding-top: 19px; */
+    transition: .5s;
+}
+
+.faq-section-wrapper .faq-left-side input:checked ~ .tab-content {
+    direction: ;
+    max-height: fit-content;
+    padding: 10px 5px;
+    background-color: rgb(68, 131, 248);
+    /* margin-top: 10px; */
+    /* border-radius: 15px; */
+}
+
+.faq-section-wrapper .faq-left-side input:checked + .tab-label:after {
+    transform: rotate(-90deg);
+}
+
+.faq-section-wrapper .faq-left-side input {
+    display: none;
+}

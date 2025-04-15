@@ -1,0 +1,28 @@
+.stat-section-wrapper {
+    background-color: #ffc412;
+    margin-top: 250px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 10px 7px black;
+}
+
+.stat-section-wrapper img {
+    width: 75px;
+}
+
+.stat-section-wrapper .count-title {
+    margin-top: 20px;
+}
+
+.stat-section-wrapper .count {
+    color: rgba(255, 255, 255, 0.968);
+    font-size: 30px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+}
+
+.border-round {
+    border-radius: 100%;
+    filter: invert(1);
+    background-color: white;
+}

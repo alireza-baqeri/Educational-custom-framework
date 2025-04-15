@@ -1,0 +1,61 @@
+.container-fluid-custom .contact i {
+    color: orange;
+    margin-right: 15px;
+}
+
+.container-fluid-custom .contact i span {
+    color: rgb(255, 255, 255);
+    /* margin-right: 15px; */
+}
+
+.container-fluid-custom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-fluid-custom .contact span a {
+    font-size: 14px;
+}
+
+.contacts {
+    vertical-align: -10px;
+}
+
+.social-media {
+    direction: ltr;
+}
+
+.social-media a {
+    vertical-align: -10px;
+}
+
+.social-media i {
+    padding: 5px;
+    /* background-color: orange; */
+    transition: 0.5s;
+}
+
+.social-media a i:hover {
+    padding: 5px;
+    background-color: orange;
+    border-radius: 50% 0%;
+}
+
+
+/* .margin-off {
+    margin: 0px;
+  } */
+
+
+/* JS developer */
+
+.active {
+    border-bottom: 3px groove red;
+}
+
+
+/* utility */
+
+.icon {
+    display: none;
+}

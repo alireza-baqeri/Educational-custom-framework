@@ -1,0 +1,47 @@
+.about-us-left-side {
+    margin-top: 140px;
+    background-color: #efefef;
+    padding: 45px;
+}
+
+.about-us-left-side h4 {
+    border-bottom: #cecece 1px solid;
+    font-size: 26px;
+    padding-bottom: 25px;
+}
+
+.about-us-left-side p {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.about-us-left-side a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 50px;
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    transition: .4s ease-in;
+}
+
+.about-us-left-side a:hover {
+    border-radius: 0px 13px 0px 13px;
+}
+
+
+/* image */
+
+.about-us-right-side img {
+    filter: blur();
+}
+
+@media screen and (max-width: 768px) {
+    .about-us-right-side {
+        display: none;
+    }
+}

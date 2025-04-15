@@ -1,0 +1,174 @@
+@import "_cssreset.css";
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap");
+@import "_contact.css";
+@import "_nav.css";
+@import "_gridsystem.css";
+@import "_header.css";
+@import "_course.css";
+@import "_aboutus.css";
+@import "_teacher.css";
+@import "_stats.css";
+@import "_topic.css";
+@import "_faq.css";
+@import "_footer.css";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Vazirmatn", sans-serif;
+    /* font-weight: 700;
+font-style: normal; */
+}
+
+button {
+    font-family: "Vazirmatn", sans-serif;
+}
+
+li,
+ol,
+ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+
+/* utility */
+
+.redcolor {
+    background-color: red;
+}
+
+.yellowcolor {
+    background-color: yellow;
+}
+
+.bluecolor {
+    background-color: blue;
+}
+
+.greencolor {
+    background-color: green;
+}
+
+.graycolor {
+    background-color: #808080;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.m-50 {
+    margin: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.round-corner {
+    border-radius: 5px;
+}
+
+
+/* containers  */
+
+.container {
+    clear: both;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto; */
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 1px #c1c1c1;
+}
+
+.bc {
+    border-top: 2px groove blue;
+    /* width: 100%; */
+}
+
+.bb {
+    border-bottom: 2px dotted rgb(195, 50, 50);
+}
+
+
+/* styles */
+
+.container-fluid-custom {
+    color: #fff;
+    background: rgb(37, 117, 252);
+    background: linear-gradient(270deg, rgba(37, 117, 252, 0.7) 31%, rgba(106, 17, 203, 0.7) 67%);
+    /* box-shadow: 1px 1px 1px 1px #000000; */
+    /* background: rgb(37, 117, 252);
+  background: rgb(37, 117, 252);
+  background: linear-gradient(
+    270deg,
+    rgba(37, 117, 252, 1) 31%,
+    rgba(106, 17, 203, 1) 67%
+  ); */
+    /* height: 40px; */
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+
+/* figure tags new style */
+
+figure {
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* min-height: 95vh; */
+    height: 100%;
+}
+
+.btn-link {
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 50px;
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+}

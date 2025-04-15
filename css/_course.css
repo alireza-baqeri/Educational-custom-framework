@@ -1,0 +1,121 @@
+/* Start section section */
+
+.course-wraper {
+    /* background: rgb(246, 190, 67);
+    background: linear-gradient( 160deg, rgba(246, 190, 67, 0.6278108655571604) 4%, rgba(255, 255, 255, 0.7034411176580007) 13%, rgba(42, 199, 131, 1) 43%, rgba(253, 29, 29, 1) 62%, rgba(252, 176, 69, 1) 76%, rgba(170, 69, 252, 1) 95%); */
+    background: rgb(246, 190, 67);
+    background: linear-gradient(160deg, rgba(246, 190, 67, 0.6278108655571604) 5%, rgba(255, 255, 255, 0.7034411176580007) 13%, rgba(42, 199, 131, 0.28327305043110995) 43%, rgba(253, 29, 29, 0.35049994118741246) 62%, rgba(252, 176, 69, 0.34209657984287467) 76%, rgba(170, 69, 252, 0.27486968908657217) 95%);
+}
+
+.section-title span {
+    /* position: relative; */
+    display: inline-block;
+    font-weight: 700;
+}
+
+.section-title span::before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 6px;
+    right: -57px;
+}
+
+.section-title span::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 6px;
+    right: 116px;
+}
+
+
+/* cards */
+
+.card {
+    background-color: white;
+}
+
+.posts .card {
+    /* box-shadow: 3px 5px 10px 0px #6bcfcf; */
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: #6bcfcf 0px 20px 30px -10px;
+    border-radius: 5px;
+    border: ridge rgba(0, 123, 255, 0.407) 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* card overlay */
+
+.card-header .card-overlay {
+    background-color: rgba(255, 162, 0, 0.335);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: 0.35s ease-in;
+    opacity: 0;
+}
+
+.card-header .card-overlay:hover {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.card:hover .card-overlay {
+    cursor: pointer;
+}
+
+
+/* card body  */
+
+.card-body img {
+    width: 50px;
+    height: 50px;
+    filter: grayscale(0.5);
+    margin-right: 10px;
+}
+
+.card-body {
+    margin-bottom: 3%;
+}
+
+.course-title a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.card-body .course-title {
+    top: 7px;
+    right: 70px;
+}
+
+.card-body .course-title p {
+    padding-top: 5px;
+    font-size: 14px;
+    color: rgb(140, 140, 139);
+}
+
+.card-overlay p {
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: #28b9a1 2px 3px 1px;
+}
+
+.section-title .p-course-title {
+    color: #000000;
+    /* padding: 20px; */
+    margin-bottom: 50px;
+}
